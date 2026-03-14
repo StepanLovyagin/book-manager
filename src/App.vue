@@ -39,7 +39,6 @@ import { ref, computed, watch } from 'vue'
 import AddBookForm from './components/AddBookForm.vue'
 import BookFilters from './components/BookFilters.vue'
 import BookCard from './components/BookCard.vue'
-e
 const books = ref([])
 
 const savedBooks = localStorage.getItem('books')
